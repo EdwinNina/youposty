@@ -9,6 +9,9 @@ window._ = _;
 
 import axios from 'axios';
 window.axios = axios;
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
+window.Swiper = Swiper;
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
